@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+.container {
+  border: 6px solid black;
+  display: flex;
+}
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.item-1 {
+  background-color: #b4bf35;
+  /*
+    order defines the order of the element inside the container.
+    default is 0, anything higher or lower will be displayed accordingly
+    from lowest to higher. you can give value in minus as well.
+  */
+  order: 0;
+}
+.item-2 {
+  background-color: #b95f21;
+  order: 1;
+}
+.item-3 {
+  background-color: #1c4c56;
+  order: 2;
+}
+.item-4 {
+  background-color: #cfb276;
+  order: -2;
+}
+.item-5 {
+  background-color: #6b0803;
+  order: -5;
+}
+.item-6 {
+  background-color: #1c4c56;
+}
+.item-7 {
+  background-color: #b95f21;
+}
+.item-8 {
+  background-color: #01243a;
+}
+.item-9 {
+  background-color: #aad041;
+}

@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+.container {
+  border: 6px solid black;
+  display: flex;
+}
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  width: 19rem;
+  /*
+    defines how the elements inside the container should shrink when browser width is reduced.
+    here it defines for all items. we can also define at element level as well.
+    default is 1 which shrinks evenly till certain extents.
+    it you set zero, it will not shrink.
+    This propery is relative, shrinks only when it is required.
+  */
+  /* flex-shrink: 1; */
+}
+.item-1 {
+  background-color: #b4bf35;
+  flex-shrink: 0;
+}
+.item-2 {
+  background-color: #b95f21;
+  flex-shrink: 2;
+}
+.item-3 {
+  background-color: #1c4c56;
+}
+.item-4 {
+  background-color: #cfb276;
+}
+.item-5 {
+  background-color: #6b0803;
+}
+.item-6 {
+  background-color: #1c4c56;
+}
+.item-7 {
+  background-color: #b95f21;
+}
+.item-8 {
+  background-color: #01243a;
+}
+.item-9 {
+  background-color: #aad041;
+}
